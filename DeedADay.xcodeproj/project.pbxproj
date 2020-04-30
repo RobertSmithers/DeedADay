@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309ECC4B244FCCEF00865A54 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309ECC4A244FCCEF00865A54 /* MainViewController.swift */; };
+		309ECC4D244FD7DE00865A54 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309ECC4C244FD7DE00865A54 /* LocalNotificationManager.swift */; };
+		309ECC4F244FD82000865A54 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309ECC4E244FD82000865A54 /* UIViewController+alert.swift */; };
 		30FDABE0244F93D900DAF319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDABDF244F93D900DAF319 /* AppDelegate.swift */; };
 		30FDABE2244F93D900DAF319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDABE1244F93D900DAF319 /* SceneDelegate.swift */; };
-		30FDABE4244F93D900DAF319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDABE3244F93D900DAF319 /* ViewController.swift */; };
+		30FDABE4244F93D900DAF319 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDABE3244F93D900DAF319 /* IntroViewController.swift */; };
 		30FDABE7244F93D900DAF319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDABE5244F93D900DAF319 /* Main.storyboard */; };
 		30FDABE9244F93DA00DAF319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FDABE8244F93DA00DAF319 /* Assets.xcassets */; };
 		30FDABEC244F93DA00DAF319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDABEA244F93DA00DAF319 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		309ECC4A244FCCEF00865A54 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		309ECC4C244FD7DE00865A54 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		309ECC4E244FD82000865A54 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		30FDABDC244F93D900DAF319 /* DeedADay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeedADay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FDABDF244F93D900DAF319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FDABE1244F93D900DAF319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30FDABE3244F93D900DAF319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FDABE3244F93D900DAF319 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		30FDABE6244F93D900DAF319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30FDABE8244F93DA00DAF319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30FDABEB244F93DA00DAF319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +64,10 @@
 			children = (
 				30FDABDF244F93D900DAF319 /* AppDelegate.swift */,
 				30FDABE1244F93D900DAF319 /* SceneDelegate.swift */,
-				30FDABE3244F93D900DAF319 /* ViewController.swift */,
+				30FDABE3244F93D900DAF319 /* IntroViewController.swift */,
+				309ECC4A244FCCEF00865A54 /* MainViewController.swift */,
+				309ECC4C244FD7DE00865A54 /* LocalNotificationManager.swift */,
+				309ECC4E244FD82000865A54 /* UIViewController+alert.swift */,
 				30FDABE5244F93D900DAF319 /* Main.storyboard */,
 				30FDABE8244F93DA00DAF319 /* Assets.xcassets */,
 				30FDABEA244F93DA00DAF319 /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FDABE4244F93D900DAF319 /* ViewController.swift in Sources */,
+				30FDABE4244F93D900DAF319 /* IntroViewController.swift in Sources */,
 				30FDABE0244F93D900DAF319 /* AppDelegate.swift in Sources */,
+				309ECC4D244FD7DE00865A54 /* LocalNotificationManager.swift in Sources */,
+				309ECC4F244FD82000865A54 /* UIViewController+alert.swift in Sources */,
 				30FDABE2244F93D900DAF319 /* SceneDelegate.swift in Sources */,
+				309ECC4B244FCCEF00865A54 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
